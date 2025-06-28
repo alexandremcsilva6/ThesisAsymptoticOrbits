@@ -1,4 +1,4 @@
-# Differential-Equation Neural Solver
+# PINN based framework for solving ODE's based on trial solutions for PVI and Dirichlet BC
 
 ## Repository structure
 
