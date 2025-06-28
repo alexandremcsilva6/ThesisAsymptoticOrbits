@@ -10,13 +10,15 @@ model.py — High-level training, evaluation and logging routines that tie a cho
 
 equations.py — Abstract base classes and helpers for defining ordinary/partial differential equations, building trial solutions, and generating reference solutions with SciPy.
 
-Example notebooks
+
+### Example notebooks
+
 The main_*.ipynb notebooks are ready-to-run demonstrations that implement:
 
-Simple pendulum
+1) Simple pendulum system and 2nd order for PVI, 2nd order for Dirichlet BCs.
 
-Double-well potential
+2) Double-well potential - heteroclinics
 
-Inverted double-well potential
+Inverted double-well potential - heteroclinics
 
-Fisher–Kolmogorov reaction-diffusion equation
+Fisher–Kolmogorov type of equation - heteroclinics with proposed approach and new approach.
