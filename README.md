@@ -2,7 +2,8 @@
 
 ## Repository structure
 
-Core Python modules
+### Core Python modules
+
 modules.py — Lightweight neural-network components (e.g. LinearModel, EquationsModel) and utility functions used across all simulations.
 
 model.py — High-level training, evaluation and logging routines that tie a chosen equation class to its neural surrogate and optimisation loop.
