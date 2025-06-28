@@ -1,4 +1,4 @@
-# PINN based framework for solving ODE's based on trial solutions for PVI and Dirichlet BC
+# PINN based framework for solving ODE's based on trial solutions for IVP and Dirichlet BC
 
 ## Repository structure
 
