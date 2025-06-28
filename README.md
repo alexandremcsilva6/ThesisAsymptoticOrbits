@@ -15,10 +15,10 @@ equations.py — Abstract base classes and helpers for defining ordinary/partial
 
 The main_*.ipynb notebooks are ready-to-run demonstrations that implement:
 
-1) Simple pendulum system and 2nd order for PVI, 2nd order for Dirichlet BCs.
+1) Simple pendulum - system and 2nd order for PVI, 2nd order for Dirichlet BCs.
 
 2) Double-well potential - heteroclinics
 
-Inverted double-well potential - heteroclinics
+3) Inverted double-well potential - heteroclinics
 
-Fisher–Kolmogorov type of equation - heteroclinics with proposed approach and new approach.
+4) Fisher–Kolmogorov type of equation - heteroclinics with proposed approach and new approach.
