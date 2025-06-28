@@ -1,0 +1,45 @@
+{
+    "seed": 4235,
+    "features": [
+        64,
+        64,
+        64,
+        64,
+        64
+    ],
+    "activation_function": "Tanh",
+    "learning_rate": 0.0001,
+    "epochs": 40000,
+    "steps": 15000,
+    "system_equations": {
+        "function": "x",
+        "domain": [
+            -7.5,
+            7.5
+        ],
+        "initial_conditions": {
+            "x": [
+                -7.5,
+                -1.0
+            ],
+            "y": [
+                7.5,
+                1.0
+            ]
+        },
+        "boundary_type": "dirichlet",
+        "coefficients": {
+            "action": 1.0,
+            "dynamics": 1.0,
+            "hamiltonian": 1.0
+        },
+        "name": "DoubleWellEquation"
+    },
+    "final_losses": {
+        "total": 40.472641777684,
+        "dynamics": 0.0023423440542971775,
+        "hamiltonian": 0.0004210801524144514,
+        "epoch": 30768
+    },
+    "l2_error": 0.9842233783390368
+}

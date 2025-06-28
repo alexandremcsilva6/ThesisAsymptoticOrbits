@@ -1,0 +1,45 @@
+{
+    "seed": 4235,
+    "features": [
+        64,
+        64,
+        64,
+        64,
+        64
+    ],
+    "activation_function": "Tanh",
+    "learning_rate": 0.001,
+    "epochs": 40000,
+    "steps": 15000,
+    "system_equations": {
+        "function": "x",
+        "domain": [
+            -7.5,
+            7.5
+        ],
+        "initial_conditions": {
+            "x": [
+                -7.5,
+                0.0
+            ],
+            "y": [
+                7.5,
+                0.0
+            ]
+        },
+        "boundary_type": "dirichlet",
+        "coefficients": {
+            "action": 1.0,
+            "dynamics": 1.0,
+            "hamiltonian": 1.0
+        },
+        "name": "InvertedDoubleWellEquation"
+    },
+    "final_losses": {
+        "total": 1.4117892809538228,
+        "dynamics": 3.790949511841572e-06,
+        "hamiltonian": 6.8396278218773e-08,
+        "epoch": 11727
+    },
+    "l2_error": Infinity
+}
