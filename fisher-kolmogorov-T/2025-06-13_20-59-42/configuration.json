@@ -1,0 +1,46 @@
+{
+    "seed": 43365,
+    "features": [
+        16,
+        16,
+        16
+    ],
+    "activation_function": "Tanh",
+    "learning_rate": 0.0005,
+    "epochs": 400000,
+    "steps": 2000,
+    "system_equations": {
+        "function": "x",
+        "domain": [
+            -0.9999999999,
+            0.9999999999
+        ],
+        "initial_conditions": {
+            "x": [
+                -10,
+                -1.0
+            ],
+            "y": [
+                -10,
+                0.0
+            ],
+            "z": [
+                10,
+                1.0
+            ],
+            "w": [
+                10,
+                0.0
+            ]
+        },
+        "boundary_type": "dirichlet",
+        "name": "KolmogorovConsecutive"
+    },
+    "final_losses": {
+        "total": 7.946636923344618,
+        "dynamics": 7.483722555631857e-08,
+        "hamiltonian": 7.483722555631857e-08,
+        "epoch": 399320
+    },
+    "l2_error": 0.2361581619927154
+}
