@@ -1,0 +1,45 @@
+{
+    "seed": 4235,
+    "features": [
+        64,
+        64,
+        64,
+        64,
+        64
+    ],
+    "activation_function": "Tanh",
+    "learning_rate": 1e-05,
+    "epochs": 20000,
+    "steps": 10000,
+    "system_equations": {
+        "function": "x",
+        "domain": [
+            0,
+            10
+        ],
+        "initial_conditions": {
+            "x": [
+                0,
+                1.5707963267948966
+            ],
+            "y": [
+                0,
+                0.0
+            ]
+        },
+        "boundary_type": "pvi",
+        "coefficients": {
+            "action": 0.0,
+            "dynamics": 1.0,
+            "hamiltonian": 0.0
+        },
+        "name": "PendulumChapter2nd"
+    },
+    "final_losses": {
+        "total": 3064.822842149246,
+        "dynamics": 0.30648228421492457,
+        "hamiltonian": 0.8404471594187783,
+        "epoch": 19999
+    },
+    "l2_error": 2.6940340313158035
+}
